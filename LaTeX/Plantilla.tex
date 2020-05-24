@@ -1,0 +1,72 @@
+\documentclass{article}
+
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+
+\titleformat{\section}{\huge\bfseries}{}{0em}{}
+
+\titleformat{\subsection}{\Large\bfseries}{\hspace{-0.2in}}{0em}{}
+
+\titleformat{\subsubsection}{\bfseries}{}{0em}{}
+
+\titlespacing{\subsubsection}{0em}{0.25em}{1em}
+
+\begin{document}
+
+\title{Title}
+\author{Daniel Gonz\'alez L\'opez}
+
+\maketitle
+
+\section{Section}
+
+Some text of the section
+
+\subsection{Figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{figure1.png}
+	\caption{Example of a figure}
+	\label{fig:net1}
+\end{figure}
+
+\subsection{List}
+
+\begin{itemize}
+	\item First item
+	\item Second item
+	\item Third item
+\end{itemize}
+
+\subsubsection{Url}
+
+\url{https://www.google.com}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
