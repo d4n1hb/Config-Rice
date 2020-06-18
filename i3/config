@@ -1,11 +1,11 @@
-#---i3-gaps Window Manager config file ---#
-#-----------------------------------------#
+#---i3-gaps Window Manager config file---#
+#
 # Original config file in - https://github.com/d4n1hb/Config-Rice.git
 #
 # This config file has only been tested in my machines. It may not work in your system.
 # Reading it is recomended before it's use, it is based on the i3-config-wizard.
 # I recomend to check the config wizard for a more personalized expperience.
-
+#
 
 #Set mod key
 set $mod Mod4
