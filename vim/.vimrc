@@ -1,3 +1,10 @@
+"--- Vim config file---#
+"
+" Original config file in - https://github.com/d4n1hb/Config-Rice.git
+"
+" This config file has only been tested in my machines. It may not work in your system.
+"
+
 "Create a shortcut key
 let mapleader =" "
 
