@@ -1,5 +1,11 @@
 "---Vim config file---#
 "
+"           _                     _ _  _         _ _     _
+"_ ____   _(_)_ __ ___         __| | || |  _ __ / | |__ | |__
+" '_ \ \ / / | '_ ` _ \ _____ / _` | || |_| '_ \| | '_ \| '_ \
+" | | \ V /| | | | | | |_____| (_| |__   _| | | | | | | | |_) |
+"_| |_|\_/ |_|_| |_| |_|      \__,_|  |_| |_| |_|_|_| |_|_.__/
+
 " Original config file in - https://github.com/d4n1hb/Config-Rice.git
 "
 " This config file has only been tested in my machines. It may not work in your system.

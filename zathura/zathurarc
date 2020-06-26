@@ -1,5 +1,11 @@
 #--- Zathura config file ---#
 #
+#         _   _                               _ _  _         _ _     _
+#______ _| |_| |__  _   _ _ __ __ _        __| | || |  _ __ / | |__ | |__
+#_  / _` | __| '_ \| | | | '__/ _` |_____ / _` | || |_| '_ \| | '_ \| '_ \
+#/ / (_| | |_| | | | |_| | | | (_| |_____| (_| |__   _| | | | | | | | |_) |
+#___\__,_|\__|_| |_|\__,_|_|  \__,_|      \__,_|  |_| |_| |_|_|_| |_|_.__/
+#
 # Original config file in - https://github.com/d4n1hb/Config-Rice.git
 #
 # This config file has only been tested in my machines. It may not work in your system.
