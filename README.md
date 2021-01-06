@@ -8,3 +8,7 @@ If they breack for you feel free to fix them and notify me.
 These configs are my approach to Luke Smith's old scholl i3-gaps configs.
 
 ![desktop](Desktop.png)
+
+## Notes
+
+Transitioned to dwm, using almost Luke build, with personal preference changes.
