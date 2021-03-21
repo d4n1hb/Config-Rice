@@ -13,4 +13,4 @@ These configs were my approach to Luke Smith's old scholl i3-gaps configs. I thi
 
 ### DWM build
 
-Screenshot pending...
+![desktop](desktop.png)
