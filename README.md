@@ -9,7 +9,7 @@ These configs were my approach to Luke Smith's old scholl i3-gaps configs. I thi
 
 ### Old i3 look
 
-![desktop](Desktop.png)
+![desktop_old](desktop_old.png)
 
 ### DWM build
 
