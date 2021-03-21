@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#Private IP
+
+ifconfig | grep "inet 192" | sed "s/\s/:/g" | awk -F ':' '{print "IP " $10 ""}'

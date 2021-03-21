@@ -1,0 +1,29 @@
+#!/bin/bash
+#Script based on BrodieRobertson's script
+# Simple script to generate a LaTeX document based on my plantilla.
+
+printf "File Name: "
+
+# Set a name for the script
+while [ -z "$ans" ];
+do
+  read -r ans
+
+  if [ -z "$ans" ]; then
+    printf "File Name: "
+  fi
+done
+
+file=$HOME/Documentos/LaTeX/$ans/$ans.tex
+
+mkdir $HOME/Documentos/LaTeX/$ans
+
+if [ -d "$HOME/Documentos/LaTeX/$ans" ]; then
+  if [ -e "$HOME/Documentos/LaTeX/$ans/$ans.tex" ]; then
+    $EDITOR "$file"
+  else
+    cat $HOME/Plantillas/Plantilla.tex >> "$file"
+    chmod +x "$file"
+    $EDITOR "$file"
+  fi
+fi

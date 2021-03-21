@@ -1,0 +1,4 @@
+#!/bin/bash
+
+source /opt/Xilinx/12.3/ISE_DS/settings64.sh
+ise

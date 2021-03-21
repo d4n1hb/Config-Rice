@@ -1,0 +1,27 @@
+#!/bin/bash
+#Script based on BrodieRobertson's script
+# Simple script to generate a script file in my scripts directory
+
+printf "File Name: "
+
+# Set a name for the script
+while [ -z "$ans" ];
+do
+  read -r ans
+
+  if [ -z "$ans" ]; then
+    printf "File Name: "
+  fi
+done
+
+file=$HOME/.local/share/scripts/$ans
+
+if [ -d "$HOME/.local/share/scripts" ]; then
+  if [ -e "$HOME/.local/share/scripts/$ans" ]; then
+    $EDITOR "$file"
+  else
+    echo "#!/bin/bash" >> "$file"
+    chmod +x "$file"
+    $EDITOR "$file"
+  fi
+fi

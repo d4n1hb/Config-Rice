@@ -1,0 +1,2 @@
+#!/bin/bash
+mpv "Vídeo/$(ls Video/* | dmenu -l 30)"

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#Apaga el ordenador
+
+[ "$(printf "No\\nSi" | dmenu -i -p "Desea apagar?" -nb darkred -sb red -sf white -nf gray )" = "Si" ] && shutdown -h now

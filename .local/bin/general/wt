@@ -1,0 +1,4 @@
+#!/bin/bash
+curl wttr.in
+#v2.wttr.in
+# no se porque no funcion el segundo y me crasea el terminal. tambien pasa si lo corro fuera del script

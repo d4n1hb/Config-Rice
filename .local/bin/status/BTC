@@ -1,0 +1,4 @@
+#!/bin/bash
+#Gives info about BTC
+
+curl -s rate.sx/1btc | awk '{print "1 BTC = "$1" "}'
