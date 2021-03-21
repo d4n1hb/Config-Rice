@@ -1,0 +1,67 @@
+.de LI
+.LIST
+.SHIFT_LIST 10p
+..
+.PARA_SPACE 1m
+.TITLE "\s+(10Titulo del trabajo\s0"
+.AUTHOR "\s+5Daniel González López\s0"
+.DOCTYPE    DEFAULT
+.COPYSTYLE  FINAL
+.PRINTSTYLE TYPESET
+.PT_SIZE 12
+.START
+Esto es una plantilla para hacer documentos en troff o groff
+.HEADING 1 "Seccion"
+.HEADING 2 "Subseccion"
+.PP
+Aqui es donde hace referencia la nota de pie de pagina\c
+.FOOTNOTE
+This is a footnote, esto es una nota de pie de pagina
+.FOOTNOTE OFF
+por aqui sigue la linea donde se hace referencia
+.LI
+.ITEM
+\f(CWAlgo de codigo\fP \(en Por aqui sigue la linea. Algo mas de \f(CWcodiogo\fP
+.ITEM
+Aqui hay otro elemento de la enumeracion
+.LIST OFF
+.HEADING 1 "Relleno"
+Relleno LALALALALALALALLALALALA
+
+
+r/linuxmemes
+
+
+r/PCM
+
+
+/g/
+
+
+/pol/
+
+\f(CW $ lsblk \fP
+
+\f(CW $ htop \fP
+
+\f(CW $ man dd \fP
+
+\f(CW $ man troff \fP
+.HEADING 1 "Imagenes"
+.PDF_IMAGE -L \ eib_logo.pdf
+
+
+
+
+
+
+
+.HEADING 1 "Contacto"
+.LI
+.ITEM
+.PDF_WWW_LINK "mailto:daniel@danielgonzalez.xyz" "daniel@danielgonzalez.xyz"
+\(en For questions
+.ITEM
+.PDF_WWW_LINK "http://danielgonzalez.xyz" "https://danidanielgonzalez.xyz"
+\(en Mi pagina web
+.LIST OFF

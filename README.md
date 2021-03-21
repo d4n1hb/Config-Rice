@@ -1,14 +1,16 @@
 # Config-Rice
 
 This repo contains my config files. They are only tested in my machines, read them before using them.
-If they breack for you feel free to fix them and notify me.
+This should not be taken as how a dwm build should look like. The rabbit hole of LINUX rice is too deep, this build takes usability over looks.
 
 ## The system
 
-These configs are my approach to Luke Smith's old scholl i3-gaps configs.
+These configs were my approach to Luke Smith's old scholl i3-gaps configs. I think that i3 is a great starting point if you want to get into tiling window managers. Once you get used to the workflow, dwm seems like a better alternative to me, it is so light and writen in C!
+
+### Old i3 look
 
 ![desktop](Desktop.png)
 
-## Notes
+### DWM build
 
-Transitioned to dwm, using almost Luke build, with personal preference changes.
+Screenshot pending...
