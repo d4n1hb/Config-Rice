@@ -1,0 +1,10 @@
+#!/bin/sh
+
+case $BLOCK_BUTTON in
+	1) notify-send "🕰️Unix Time" "$(date +%s)\\n$(date)\\n Seconds since 1 January 1970" ;;
+	3) notify-send "🕰️Unix Time" "\- ShowsUnix time.
+- Click to show info" ;;
+	6) "$TERMINAL" -e "$EDITOR" "$0" ;;
+esac
+
+date +%s | awk '{print "🕰️" $1}'
