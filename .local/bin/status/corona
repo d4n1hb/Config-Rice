@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 #curl -s https://corona-stats.online/spain > ~/.cache/corona
 cd ~/.cache/

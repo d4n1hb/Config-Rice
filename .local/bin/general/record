@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #Recording script
 
 date +"%Y%m%d.mkv" | xargs ffmpeg -f x11grab -s 1920x970  -r 30 -i :0.0 -f alsa -i default -vcodec libx264 -preset ultrafast -acodec flac -ac 2 -ar 48000

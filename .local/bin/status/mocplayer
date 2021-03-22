@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # mocp playing song script
 maxlen=${BLOCK_INSTANCE:-30}
 full_text="MOC not running!"

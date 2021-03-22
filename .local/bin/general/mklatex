@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #Script based on BrodieRobertson's script
 # Simple script to generate a LaTeX document based on my plantilla.
 

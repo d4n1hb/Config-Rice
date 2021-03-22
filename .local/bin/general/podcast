@@ -1,2 +1,2 @@
-#!/bin/bash
+#!/bin/sh
 mpv "/home/daniel/Música/NotRelated/$(ls ~/Música/NotRelated | dmenu -l 30)"

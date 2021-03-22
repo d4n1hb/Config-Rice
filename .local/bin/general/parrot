@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #Is just a dancing parrot
 
 curl parrot.live

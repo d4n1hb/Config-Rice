@@ -1,2 +1,2 @@
-#!/bin/bash
+#!/bin/sh
 du -a Documentos | cut -f2- | grep pdf$ | dmenu -l 30 | xargs -I {} zathura "{}"

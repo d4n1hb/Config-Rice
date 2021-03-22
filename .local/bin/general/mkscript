@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #Script based on BrodieRobertson's script
 # Simple script to generate a script file in my scripts directory
 
